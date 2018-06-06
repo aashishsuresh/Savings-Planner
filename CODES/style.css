@@ -1,0 +1,282 @@
+body
+{
+	background-image:url("background.jpg");
+	background-size:100%;
+	font-family:Arial,'Lucida Sans Unicode';
+	line-height:1.5;
+}
+
+.body
+{
+	margin: 0 auto;
+	width:98%;
+	clear both;
+}
+
+.mainHeader
+{
+	height:100px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	text-align:center;
+	font-size:450%;
+	color:black;
+	font-family:Sans Serif;
+}
+
+.navi
+{
+	height:40px;
+}
+
+.navi ul
+{
+	list-style-type: none;
+	overflow: hidden;
+	border: 3 px solid black;
+	font-size:120%;
+	font-family:Comic Sans MS;
+}
+
+
+.navi ul li a
+{
+	float: left;
+	display: inline block;
+	color:#fb2e01;
+	font-weight: bolder;
+	padding: 0.5% 3%;
+	text-decoration: none;
+	cursor:pointer;
+}
+
+.navi ul li a:hover
+{
+	color:#ae0001 ;
+}
+
+.navi ul li a:focus, .active
+{
+	color:#8C001A;
+	border-radius:5px;
+}
+
+.mainContent
+{
+	overflow:hidden;
+	line-height:25px;
+}
+.about
+{
+	width:55%;
+	float:left;
+}
+
+.about_new_user
+{
+	width:45%;
+	float:left;
+}
+
+.header_for_topic
+{
+	color:#fb2e01;
+	font-family:Comic Sans MS;
+	text-align:center;
+	float:center;
+	font-size:170%;
+	padding: 2% 3%;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	overfloaw:hidden;
+}
+
+.login
+{
+	width:45%;
+	float:left;
+	line-height:1.5;
+}
+
+
+.sep
+{
+	width:5%;
+	float:left;
+}
+
+.sign_up
+{
+	width:50%;
+	float:left;
+	line-height:1.5;
+}
+
+.frames
+{
+	width:100%;
+	float:left;
+}
+.post_content
+{
+	font-size:120%;
+	text-align:center;
+	font-face:arial;
+}
+
+
+::-webkit-input-placeholder
+{
+	color:#AA0078;
+	opacity:0.8;
+	font-family:Berlin Sans FB;
+	text-align:center;
+}
+:-moz-placeholder
+{
+	color:#AA0078;
+	opacity:0.8;
+	font-family:Berlin Sans FB;
+	text-align:center;
+}
+::-moz-placeholder
+{
+	color:#AA0078;
+	opacity:0.8;
+	font-family:Berlin Sans FB;
+	text-align:center;
+}
+:-ms-input-placeholder
+{
+	color:#AA0078;
+	opacity:0.8;
+	font-family:Berlin Sans FB;
+	text-align:center;
+}
+
+
+input[type=text]
+{
+	border: solid black;
+	border-radius: 4px;
+	font-size: 120%;
+	padding: 1% 1%;
+	color:black;
+}
+
+input[type=password]
+{
+	border: solid black;
+	border-radius: 4px;
+	font-size: 120%;
+	padding: 1% 1%;
+	color:black;
+}
+
+input[type=number]
+{
+	border: solid black;
+	border-radius: 4px;
+	font-size: 120%;
+	padding: 1% 1%;
+	color:black;
+}
+
+select
+{
+	border: solid black;
+	border-radius: 4px;
+	font-size: 120%;
+	padding: 1% 1%;
+	color:black;
+}
+
+input[type=submit]
+{
+	border: solid black;
+	border-radius: 10px;
+	font-size: 120%;
+	padding: 1% 1%;
+	color:#fb2e01;
+	background-color:white;
+}
+
+input[type=date]
+{
+	border: solid black;
+	border-radius: 10px;
+	font-size: 120%;
+	padding: 1% 1%;
+	color:#fb2e01;
+	background-color:white;
+}
+
+
+input[type=submit]:hover
+{
+	background-color:#ae0001;
+	color:white;
+}
+.gender
+{
+	color:#AA0078;
+	opacity:0.8;
+	font-family:Berlin Sans FB;
+	text-align:center;
+	font-size:120%;
+}
+
+.error
+{
+	color:purple;
+	background-color:white;
+	font-family:Comic Sans MS;
+	font-size:90%;
+}
+
+.text
+{
+	font-size:120%;
+	font-family:sans-serif;;
+	color: black;
+	text-align:center;
+}
+
+.analytics_text
+{
+	font-size:100%;
+	font-weight:bold;
+	color: red;
+	text-align:center;
+}
+
+.table
+{
+	//table-layout:fixed;
+	width:80%;
+	border:2px solid black;
+}
+
+td {
+    border: 1px solid black;
+}
+
+@media only screen and (min-width: 150 px) and (max-width:600px)
+{
+	{
+		td {
+		    border: 1px solid black;
+		}
+	.body
+	{
+		width:99%;
+	}
+	.mainHeader
+	{
+		height:auto;
+		font-size:400%;
+		font-family:Sans Serif;
+	}
+}
